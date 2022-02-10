@@ -1,0 +1,265 @@
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 0.06em;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*background image -homepage*/
+.container {
+  background-image: url("1585159.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+/*navbar */
+.header {
+  background-color: black;
+  border: 2px solid white;
+  padding: 12px;
+}
+/*logo-part */
+.logo {
+  display: inline-block;
+  position: absolute;
+  left: 100px;
+  top: 15px;
+}
+.logo img {
+  width: 4.5vw;
+  filter: invert(100%);
+}
+.logo div {
+  color: white;
+}
+/*navbar content*/
+.navbar {
+  display: block;
+  width: 50vw;
+  margin: 22px auto;
+}
+.navbar li {
+  display: inline;
+}
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  padding: 12px 15px;
+  font-size: 18px;
+}
+
+.navbar li a:hover {
+  color: red;
+  background-color: cyan;
+}
+/*contact-part */
+
+.contact {
+  position: absolute;
+  padding: 22px;
+  display: inline-block;
+  right: 34px;
+  top: 10px;
+}
+
+#button {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding: 7px;
+}
+#button a {
+  text-decoration: none;
+  font-size: 15px;
+  color: whitesmoke;
+  font-size: 1.1em;
+}
+#button a :hover {
+  color: white;
+}
+/*content on image */
+.content {
+  width: 320%;
+  margin: 120px 0px 0px 950px;
+  font-size: 30px;
+  color: black;
+}
+.btn {
+  padding: 10px;
+  width: 3%;
+  border-radius: 6px;
+  background-color: black;
+}
+button:hover {
+  background-color: aqua;
+}
+button a {
+  text-decoration: none;
+  font-size: 1.3em;
+  color: white;
+}
+button a:hover {
+  color: red;
+}
+
+/*offer container */
+.containergray {
+  text-align: center;
+  padding: 10px;
+  background-color: gray;
+  border: 1px solid black;
+}
+.containergray button {
+  background-color: black;
+  color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 5px;
+  padding: 10px 20px 10px 15px;
+}
+.containergray button:hover {
+  background-color: aqua;
+}
+.containergray button a:hover {
+  color: red;
+}
+
+/*Tranning part */
+
+div.gallery {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 50px;
+  float: left;
+  width: 26.45%;
+  background-color: rgba(128, 128, 128, 0.349);
+}
+.heading {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 22px;
+}
+div.gallery img {
+  width: 100%;
+  height: 350px;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
+.ogp button {
+  padding: 6px;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: black;
+}
+.ogp button a {
+  text-decoration: none;
+  color: white;
+}
+.ogp button:hover {
+  background-color: cyan;
+}
+.ogp button a:hover {
+  color: red;
+}
+/*image gallary */
+.imggalary .img1 {
+  margin: 35px;
+  float: left;
+  width: 26.75%;
+}
+.imggalary img1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.imggalary .img1 img {
+  border-radius: 10px;
+}
+.main {
+  background-image: url("blur.jpg");
+  height: auto;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+/*Login Form*/
+.login {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 100px 500px;
+  padding: 10px 90px 60px 100px;
+  box-shadow: 5px 10px 18px #888888;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.form-group input {
+  border: 1px solid black;
+  text-align: center;
+  display: block;
+  width: 85%;
+  padding: 6px;
+  margin: 12px 7px 6px 5px;
+}
+.login button {
+  display: inline;
+  margin: 3px 0px 0px 100px;
+  width: 30%;
+  padding: 3px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.login h1 {
+  text-align: center;
+  font-size: 30px;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+.fa {
+  padding: 10px;
+  width: 30px;
+  text-decoration: none;
+  margin: 5px;
+
+  border-radius: 150px;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
